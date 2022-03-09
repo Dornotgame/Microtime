@@ -34,8 +34,8 @@ basic.forever(function () {
     hours += 1
 })
 basic.forever(function () {
-    if (hours == 13) {
-        hours = 1
+    if (hours == 24) {
+        hours = 0
     }
 })
 basic.forever(function () {
